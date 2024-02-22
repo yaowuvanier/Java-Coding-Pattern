@@ -1,10 +1,15 @@
 
 7
-java:S1220""Move this file to a named package.8«ßÛİ1
-G	java:S106"+Replace this use of System.out by a logger.(ÃĞì—8¹ßÛİ1
-L	java:S106"+Replace this use of System.out by a logger.(ü·òÁøÿÿÿÿ8»ßÛİ1
-G	java:S106"+Replace this use of System.out by a logger.(Ü²şˆ8’±ˆ‘İ1
+java:S1220""Move this file to a named package.8ñ­ô‘İ1
+G	java:S106"+Replace this use of System.out by a logger.(ÃĞì—8»®ô‘İ1
+L	java:S106"+Replace this use of System.out by a logger.(ü·òÁøÿÿÿÿ8½®ô‘İ1
+G	java:S106"+Replace this use of System.out by a logger.(Ü²şˆ8½®ô‘İ1
+L	java:S106%"+Replace this use of System.out by a logger.(Ñ©°àÿÿÿÿÿ8¾®ô‘İ1
+L	java:S106&"+Replace this use of System.out by a logger.(‚–Êüÿÿÿÿ8¾®ô‘İ1
+G	java:S106)"+Replace this use of System.out by a logger.(øÃ‹Ì8È®ô‘İ1
+G	java:S106+"+Replace this use of System.out by a logger.(®—ß€8Ğ®ô‘İ1
+L	java:S106."+Replace this use of System.out by a logger.(™çšùÿÿÿÿ8à®ô‘İ1
 L
-java:S1197)"*Move the array designators [] to the type.(ˆıí¨ıÿÿÿÿ8Ö”Õ‘İ1
+java:S1197A"*Move the array designators [] to the type.(ˆıí¨ıÿÿÿÿ8å®ô‘İ1
 ^
-java:S1659+"ADeclare "high" and all following declarations on a separate line.(ÌâËï8Ù”Õ‘İ1
+java:S1659C"ADeclare "high" and all following declarations on a separate line.(ÌâËï8å®ô‘İ1
