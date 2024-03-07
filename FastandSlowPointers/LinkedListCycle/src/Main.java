@@ -32,6 +32,8 @@ public class Main {
         System.out.println("[2,4,6,8,10], 1 exist cycle?: " + isExistCycle(listCycle));
         System.out.println("[1,3,5,7,9], -1 exist cycle?: " + isExistCycle(list));
 
+        System.out.println("middle of [1,3,5,7,9] is : " + middleNode(list).data);
+
     }
     public static boolean isExistCycle(LinkedList list){
 
