@@ -50,7 +50,7 @@ public class Main {
         }
         return fast == slow;
     }
-}
+
     /*
         while (fast != null && fast.next != null) {
                 slow = slow.next;
@@ -60,7 +60,25 @@ public class Main {
                     return true;
                 }
             }
-
             return false;
         }
     * */
+
+    public static LinkedListNode middleNode(LinkedList list){
+        LinkedListNode temp = list.head;
+        if (temp == null)
+            return null;
+        if (temp.next == null)
+            return temp;
+
+        LinkedListNode middle;
+        LinkedListNode fast;
+        middle = fast = temp;
+
+        while (!(fast == null || fast.next ==null)){
+            middle = middle.next;
+            fast = fast.next.next;
+        }
+        return middle;
+    }
+}

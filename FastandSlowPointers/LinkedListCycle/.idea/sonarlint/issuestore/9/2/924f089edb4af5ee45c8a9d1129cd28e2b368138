@@ -1,14 +1,16 @@
 
 L
-java:S3740$"/Provide the parametrized type for this generic.(š÷â¾8©¨ßÏá1
+java:S3740$"/Provide the parametrized type for this generic.(š÷â¾8ËååÓá1
+L
+java:S3740C"/Provide the parametrized type for this generic.(’ì”ø8ÌååÓá1
 7
-java:S1220""Move this file to a named package.8’€ÆÏá1
+java:S1220""Move this file to a named package.8ÌååÓá1
 W
-java:S2209"5Change this instance-reference to a static reference.(®ÅÕ‹üÿÿÿÿ8Ÿ€ÆÏá1
+java:S2209"5Change this instance-reference to a static reference.(®ÅÕ‹üÿÿÿÿ8×ååÓá1
 Q
-java:S2209"5Change this instance-reference to a static reference.(ÔÁæ|8Ÿ€ÆÏá1
-G	java:S106 "+Replace this use of System.out by a logger.(ºÛ°8 €ÆÏá1
-G	java:S106!"+Replace this use of System.out by a logger.(Àİ†„8 €ÆÏá1
+java:S2209"5Change this instance-reference to a static reference.(ÔÁæ|8ØååÓá1
+G	java:S106 "+Replace this use of System.out by a logger.(ºÛ°8ØååÓá1
+G	java:S106!"+Replace this use of System.out by a logger.(Àİ†„8ØååÓá1
 ?
-java:S1659*""Declare "slow" on a separate line.(²¶—â8¡€ÆÏá1
-]	java:S1257"<This block of commented-out lines of code should be removed.(÷¥Òµüÿÿÿÿ8¢×ÆÏá1
+java:S1659*""Declare "slow" on a separate line.(²¶—â8ÙååÓá1
+]	java:S1257"<This block of commented-out lines of code should be removed.(÷¥Òµüÿÿÿÿ8ÚååÓá1
