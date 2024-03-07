@@ -34,6 +34,11 @@ public class Main {
 
     }
     public static boolean isExistCycle(LinkedListNode head){
+
+        if (head == null) {
+            return false;
+        }
+
         LinkedListNode fast, slow;
         slow = head;
         fast = head.next;
