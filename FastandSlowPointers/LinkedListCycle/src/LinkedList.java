@@ -22,20 +22,14 @@ class LinkedList<T> {
     }
     // createLinkedList method will create the linked list using the
     // given integer array with the help of InsertAthead method.
-    public LinkedListNode createLinkedList(int[] lst) {
-        LinkedListNode head = null; // Initialize the head of the linked list
+    // createLinkedList method will create the linked list using the
+    // given integer array with the help of InsertAthead method.
+    public void createLinkedList(int[] lst) {
         for (int i = lst.length - 1; i >= 0; i--) {
             LinkedListNode newNode = new LinkedListNode(lst[i]);
-            if (head == null) {
-                head = newNode; // If the list is empty, set the new node as the head
-            } else {
-                newNode.next = head; // Set the next pointer of the new node to the current head
-                head = newNode; // Update the head to the new node
-            }
+            insertNodeAtHead(newNode);
         }
-        return head; // Return the head of the linked list
     }
-
 
     // returns the node at the specified position(index) of the linked list
     public static LinkedListNode getNode(LinkedListNode head, int pos){

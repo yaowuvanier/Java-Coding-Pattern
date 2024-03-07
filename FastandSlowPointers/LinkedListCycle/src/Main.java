@@ -20,28 +20,28 @@ public class Main {
     */
         LinkedList<Integer> listCycle = new LinkedList<>();
         int[] arrC = {2, 4, 6, 8, 10};
-        LinkedListNode head = listCycle.createLinkedList(arrC);
-        LinkedListNode last = listCycle.getNode(head,arrC.length-1);
-        last.setNext(listCycle.getNode(head,1));
+        listCycle.createLinkedList(arrC);
+        LinkedListNode last = listCycle.getNode(listCycle.head,arrC.length-1);
+        last.setNext(listCycle.getNode(listCycle.head,1));
 
         LinkedList<Integer> list = new LinkedList<>();
         int[] arr = {1,3,5,7,9};
-        LinkedListNode headNoCycle = list.createLinkedList(arr);
+        list.createLinkedList(arr);
 
 
-        System.out.println("[2,4,6,8,10], 1 exist cycle?: " + isExistCycle(head));
-        System.out.println("[1,3,5,7,9], -1 exist cycle?: " + isExistCycle(headNoCycle));
+        System.out.println("[2,4,6,8,10], 1 exist cycle?: " + isExistCycle(listCycle));
+        System.out.println("[1,3,5,7,9], -1 exist cycle?: " + isExistCycle(list));
 
     }
-    public static boolean isExistCycle(LinkedListNode head){
+    public static boolean isExistCycle(LinkedList list){
 
-        if (head == null) {
+        if (list.head == null) {
             return false;
         }
 
         LinkedListNode fast, slow;
-        slow = head;
-        fast = head.next;
+        slow = list.head;
+        fast = list.head.next;
 
         while ((fast != slow) && (fast != null) && (fast.next != null)){
             slow = slow.next;
@@ -51,3 +51,16 @@ public class Main {
         return fast == slow;
     }
 }
+    /*
+        while (fast != null && fast.next != null) {
+                slow = slow.next;
+                fast = fast.next.next;
+
+                if (slow == fast) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+    * */
