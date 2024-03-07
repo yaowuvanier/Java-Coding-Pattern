@@ -1,0 +1,7 @@
+
+7
+java:S1220""Move this file to a named package.8šõ¢Ïá1
+L	java:S106 "+Replace this use of System.out by a logger.(éÔûÜúÿÿÿÿ8Ÿõ¢Ïá1
+F	java:S106!"+Replace this use of System.out by a logger.(¾ÀÂ8µÅ¥Ïá1
+?
+java:S1659%""Declare "slow" on a separate line.(²¶—â8 õ¢Ïá1

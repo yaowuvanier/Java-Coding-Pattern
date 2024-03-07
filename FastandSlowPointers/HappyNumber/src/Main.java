@@ -17,8 +17,9 @@
  * */
 public class Main {
     public static void main(String[] args) {
+        int number = 2147483646;
 
-        System.out.println("Hello world!");
+        System.out.println("is 2147483646 a happy number?: " + isHappyNumber(number) );
     }
 
     public static boolean isHappyNumber (int number){
@@ -37,7 +38,18 @@ public class Main {
             }
         }
     }
+    /*  //another way to write, concise, when fast !=1 && fast != slow, to be continued...
+      public static boolean isHappyNumber(int n) {
+      int slowPointer = n;
+      int fastPointer = sumOfSquaredDigits(n);
 
+      while (fastPointer != 1 && slowPointer != fastPointer) {
+          slowPointer = sumOfSquaredDigits(slowPointer);
+          fastPointer =  sumOfSquaredDigits(sumOfSquaredDigits(fastPointer));
+      }
+      return fastPointer == 1;
+  }
+    * */
     public static int sumOfSquaredDigits (int number){
         int sum = 0;
         while(number > 0){
