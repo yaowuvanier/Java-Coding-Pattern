@@ -1,0 +1,19 @@
+
+“
+java:S1319O"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(ôÕöŠúÿÿÿÿ8ÊÌ×½æ1
+r	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÛ¯ñÿÿÿÿÿ8ËÌ×½æ1
+r	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Æàëúÿÿÿÿ8ËÌ×½æ1
+z
+java:S14883"]Immediately return this expression instead of assigning it to the temporary variable "value".(Óáãõ8ËÌ×½æ1
+7
+java:S1220""Move this file to a named package.8ËÌ×½æ1
+b
+java:S2184F"ECast one of the operands of this subtraction operation to a "double".(Ã‹öÃ8ÌÌ×½æ1
+a
+java:S2184J"ECast one of the operands of this subtraction operation to a "double".(ôÂñ8ÌÌ×½æ1
+L	java:S106"+Replace this use of System.out by a logger.(øÆ½»ùÿÿÿÿ8ãÌ×½æ1
+G	java:S106"+Replace this use of System.out by a logger.(Ó¸ˆ8äÌ×½æ1
+G	java:S106"+Replace this use of System.out by a logger.(×ø²’8äÌ×½æ1
+G	java:S106^"+Replace this use of System.out by a logger.(Û‰Ã¡8ëÌ×½æ1
+G	java:S106`"+Replace this use of System.out by a logger.(¯‘±ù8ìÌ×½æ1
+L	java:S106b"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ8É¿ò½æ1

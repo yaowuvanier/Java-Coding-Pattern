@@ -1,0 +1,13 @@
+
+Q
+java:S1066."/Merge this if statement with the enclosing one.(æ¸§„şÿÿÿÿ8µÆçşæ1
+7
+java:S1220""Move this file to a named package.8¶Æçşæ1
+f
+java:S2583="DChange this condition so that it does not always evaluate to "false"(Œ€ıÿÿÿÿ8×Ççşæ1
+X	java:S125"<This block of commented-out lines of code should be removed.(æõ—8ÚÇçşæ1
+G	java:S106"+Replace this use of System.out by a logger.(Şôº”8ÚÇçşæ1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(õÜ”‹şÿÿÿÿ8ÚÇçşæ1
+D
+java:S1125-"'Remove the unnecessary boolean literal.(‰¾¦ë8ÜÇçşæ1
